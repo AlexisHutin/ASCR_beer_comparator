@@ -1,0 +1,52 @@
+{
+    "data": [
+        {
+            "name": "carrefour",
+            "link": "https://www.carrefour.fr/s?",
+            "query_params": {
+                "search": "q=",
+                "page_number": "page=",
+                "other_params": "noRedirect=1"
+            },
+            "tags": {
+                "waitFor": ".ds-product-card-refonte",
+                "name": ".product-card-title__text",
+                "format": ".ds-product-card-refonte__shimzone--small",
+                "price": ".product-price__amount-value",
+                "price_L": ".ds-product-card-refonte__perunitlabel"
+            }
+        },
+        {
+            "name": "super_u",
+            "link": "https://www.carrefour.fr/s?",
+            "query_params": {
+                "search": "q=",
+                "page_number": "page=",
+                "other_params": ""
+            },
+            "tags": {
+                "waitFor": ".ds-product-card-refonte",
+                "name": ".product-card-title__text",
+                "format": ".ds-product-card-refonte__shimzone--small",
+                "price": ".product-price__amount-value",
+                "price_L": ".ds-product-card-refonte__perunitlabel"
+            }
+        },
+        {
+            "name": "leclerc",
+            "link": "https://fd1-courses.leclercdrive.fr/magasin-193501-193501-Vern---Val-dOrson/recherche.aspx?",
+            "query_params": {
+                "search": "TexteRecherche=",
+                "page_number": "page=",
+                "other_params": ""
+            },
+            "tags": {
+                "waitFor": ".ds-product-card-refonte",
+                "name": ".product-card-title__text",
+                "format": ".ds-product-card-refonte__shimzone--small",
+                "price": ".product-price__amount-value",
+                "price_L": ".ds-product-card-refonte__perunitlabel"
+            }
+        }
+    ]
+}
